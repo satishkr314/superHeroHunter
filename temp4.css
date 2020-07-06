@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(32, 150, 197);
+}
+#suggestionList
+{
+    height:98vh;
+    width:98vw;
+    background-color: slateblue;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+img
+{
+    height:70vh;
+    width:70%;
+    background-color: turquoise;
+    
+}
+/* div img{
+    height:100%;
+    width:100%;
+} */

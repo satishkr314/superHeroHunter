@@ -1,0 +1,65 @@
+body
+{
+    background-image: url("superhero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gameName
+{
+    width:auto;
+    color:white;
+    /* font-size: 3rem; */
+    margin-top: 10rem;
+    margin-left: 10rem;
+    display:flex;
+}
+#gameNam
+{
+    font-size: 3rem;
+}
+.input
+{
+    height:auto;
+    width:25rem;
+    margin-left: 7rem;
+    /*background-color: white;*/
+    border-radius: 2rem;
+}
+input{
+    height:4rem%;
+    width:100%;
+    border:none;
+    /* border-radius: 2rem; */
+    /* background-color: white; */
+    font-size: 2.3rem;
+}
+.favHero
+{
+    /* border-radius: 2px solid white; */
+    font-size:2.5rem;
+    margin-left:5rem;
+    border-bottom:2px solid purple;
+}
+#suggestionList
+{
+    height:500px;
+    width:400px;
+    overflow-y: scroll;
+}
+.detail
+{
+    height:250px;
+    width:350px;
+}
+.imga
+{
+    width:350px;
+    height:150px;
+}
+.imga img{
+    width:100%;
+    height:100%;
+}
+#suggestionList::-webkit-scrollbar {
+    display: none;
+}
